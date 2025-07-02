@@ -3,15 +3,23 @@
 A first-class Python client and CLI for the Jelva quantitative-trading platform.
 
 ## Features
-- HTTP API client for all Jelva endpoints
-- Click-based CLI for scripting and automation
-- Pydantic models for type-safe data
-- Pluggy-based plugin system for strategies/connectors
-- Backtest runner interface
-- TOML/env config loader
-- Structlog-based logging
+- Unified client and CLI for all Jelva platform operations
+- Portfolio management and backtest execution
+- Strategy development, local testing, and cloud deployment
+- Secure authentication and configuration
+- Data export and analytics utilities
 
-## Installation
+## PyPI Package (Coming Soon)
+
+The `jelva-sdk` will be available as a Python package on PyPI. You will be able to install it with:
+
+```bash
+pip install jelva-sdk
+```
+
+Until then, use the development install instructions below.
+
+## Installation (Development)
 
 ```bash
 # Install Poetry if you don't have it
@@ -67,6 +75,8 @@ poetry run jelva-cli deploy-strategy \
 > **Note:** The deploy-strategy command is a stub and may require changes to match the backend API.
 
 ## Usage
+
+You can use the SDK as a Python library or as a CLI tool.
 
 ### Importing the Client
 ```python
