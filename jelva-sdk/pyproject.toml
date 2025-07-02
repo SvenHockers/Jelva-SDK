@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "jelva-sdk"
+version = "0.1.0"
+description = "Python SDK and CLI for the Jelva quantitative-trading platform."
+authors = ["Jelva Team <dev@jelva.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+requests = "*"
+pydantic = "*"
+click = "*"
+pluggy = "*"
+structlog = "*"
+httpx = "*"
+toml = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+Sphinx = "*"
+mkdocs = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
