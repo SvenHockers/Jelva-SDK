@@ -1,4 +1,4 @@
-# Jelva Python SDK
+# Jelva Python SDK (Dev is ongoing, some features might not be working or have yet to be implemented)
 
 A first-class Python client and CLI for the Jelva quantitative-trading platform.
 
